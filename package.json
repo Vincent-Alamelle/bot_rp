@@ -1,0 +1,22 @@
+{
+  "name": "bot_rp",
+  "version": "1.0.0",
+  "description": "A wonderfull discord bot for roleplay servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vincent-Alamelle/bot_rp.git"
+  },
+  "author": "Xylophone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vincent-Alamelle/bot_rp/issues"
+  },
+  "homepage": "https://github.com/Vincent-Alamelle/bot_rp#readme",
+  "dependencies": {
+    "discord.js": "^12.4.0"
+  }
+}
