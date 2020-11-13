@@ -1,4 +1,5 @@
 const Command = require('../../utils/command');
+const Discord = require('discord.js');
 
 module.exports = class Flip extends Command{
 
@@ -7,9 +8,16 @@ module.exports = class Flip extends Command{
     }
 
     static action (message){
+        let answer;
         let result = Math.floor(Math.random() * Math.floor(2));
-        if (result === 1){message.reply("C'est face !");}
-        else {message.reply("C'est pile !")}
+        if (result === 1){ answer = "C'est face !"; }
+        else { answer = "C'est pile !"; }
+
+        const embed = new Discord.MessageEmbed()
+            .setColor('18EEDA')
+            .setTitle("Pile ou face")
+            .addField('Résultat', `\`\`\`\n` + answer + `\`\`\``)
+        message.reply(embed);
     }
 };
 
