@@ -18,6 +18,10 @@
   "homepage": "https://github.com/Vincent-Alamelle/bot_rp#readme",
   "dependencies": {
     "discord.js": "^12.4.0",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "mathjs": "^8.0.1"
+  },
+  "devDependencies": {
+    "mathjs": "^8.0.1"
   }
 }
