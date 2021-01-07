@@ -8,7 +8,7 @@ function getRandomInt(max) {
 module.exports = class Roll extends Command{
 
     static match (message){
-        return message.content.startsWith('!r ');
+        return message.content.startsWith('!roll ');
     }
 
     static action (message){
